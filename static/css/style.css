@@ -70,4 +70,6 @@ footer.page-footer {
   margin: 0;
 }
 
-
+.btn {
+  margin-bottom: 20px;
+}
