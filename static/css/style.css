@@ -10,20 +10,26 @@
   
   line-height: 50px;
   margin-left: 50px;
+ 
 }
 
 .fa-li {
   padding-right: 20px;
   font-size:20px;
+   color: #ff3d00;
 }
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  height: #fff;
 }
 
 p {
   line-height: 2rem;
+}
+
+nav .nav-wrapper .brand-logo img {
+  height: 64px;
 }
 
 .sidenav-trigger {
@@ -64,6 +70,7 @@ p {
 }
 .icon-block .material-icons {
   font-size: inherit;
+  color: #ff3d00;
 }
 
 footer.page-footer {
