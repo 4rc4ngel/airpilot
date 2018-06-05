@@ -16,16 +16,17 @@
 .fa-li {
   padding-right: 20px;
   font-size:20px;
-   color: #ff3d00;
+   color: #f27b4f;
 }
 
 nav ul a,
 nav .brand-logo {
-  height: #fff;
+  color: #fff;
 }
 
 p {
   line-height: 2rem;
+  color: #000;
 }
 
 nav .nav-wrapper .brand-logo img {
@@ -37,7 +38,7 @@ nav .nav-wrapper .brand-logo img {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 400px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -63,6 +64,7 @@ nav .nav-wrapper .brand-logo img {
   #index-banner .section {
     top: 0;
   }
+  
 }
 
 .icon-block {
@@ -70,13 +72,24 @@ nav .nav-wrapper .brand-logo img {
 }
 .icon-block .material-icons {
   font-size: inherit;
-  color: #ff3d00;
+  color: #f27b4f;
 }
 
-footer.page-footer {
+.page-footer {
   margin: 0;
+  background-color: #09093a;
 }
+
+
 
 .btn {
   margin-bottom: 20px;
 }
+nav {
+  background-color: #09093a;
+}
+
+.heading {
+  color: #f27b4f;
+}
+
