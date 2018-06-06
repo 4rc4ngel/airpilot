@@ -21,7 +21,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #fff;
+  color: #09093a;
 }
 
 p {
@@ -86,7 +86,7 @@ nav .nav-wrapper .brand-logo img {
   margin-bottom: 20px;
 }
 nav {
-  background-color: #09093a;
+  background-color: #fff;
 }
 
 .heading {
