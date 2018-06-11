@@ -7,4 +7,6 @@ $(document).ready(function(){
         $('.carousel').carousel('next');
         setTimeout(autoplay, 4500);
     }
+    $(".dropdown-trigger").dropdown();
+    
 });

@@ -38,7 +38,7 @@ nav .nav-wrapper .brand-logo img {
 }
 
 .parallax-container {
-  min-height: 400px;
+  min-height: 500px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -58,12 +58,24 @@ nav .nav-wrapper .brand-logo img {
   }
 }
 
-
+@media only screen and (max-width : 768px) {
+  nav .nav-wrapper .brand-logo img {
+    display: none;
+  }
+  
+}
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
+  nav .nav-wrapper .brand-logo img {
+    display: none;
+  }
+  nav ul a, nav .brand-logo {
+  color: #09093a;
+  font-size: 10px;
+}
   
 }
 
@@ -93,3 +105,10 @@ nav {
   color: #f27b4f;
 }
 
+.dropdown-content li a {
+  color: #09093a;
+}
+
+#burgerBar {
+  color: #09093a;
+}
