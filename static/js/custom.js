@@ -8,5 +8,6 @@ $(document).ready(function(){
         setTimeout(autoplay, 4500);
     }
     $(".dropdown-trigger").dropdown();
-    
+
 });
+

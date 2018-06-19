@@ -10,20 +10,20 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
 </head>
 
 <body>
-    <!-- Dropdown Structure -->
-    <ul id="dropdown1" class="dropdown-content">
-      <li><a href="#">About Us</a></li>
-      <li><a href="#linkToProperty">Property Marketing</a></li>
-      <li><a href="#linkToGolf">Golf Course</a></li>
-      <li><a href="#linkToInspection">High Level Inspection</a></li>
-      
-    </ul>
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#">About Us</a></li>
+    <li><a href="#linkToProperty">Property Marketing</a></li>
+    <li><a href="#linkToGolf">Golf Course</a></li>
+    <li><a href="#linkToInspection">High Level Inspection</a></li>
+
+  </ul>
   <div class="navbar-fixed">
 
     <nav role="navigation">
@@ -38,8 +38,8 @@
         </ul>
       </div>
     </nav>
-    
-    
+
+
   </div>
 
 
@@ -63,29 +63,10 @@
   <!--icon section -->
   <div class="container">
     <div class="row">
-      <div class="s12 m6">
-        <h4>About Us</h4>
-        <p class="left-align light">
-          <strong>Airpilot UK</strong> was set up in 2017 by owner <strong>Murray Rose</strong> and are based in West Essex, UK. Murray was trained and took his extensive
-          <strong>UAV (Unmanned Aerial Vehicle)</strong>, tests with <strong>UAV8 Ltd</strong> and has aerial
-          <strong>Permission for Commercial Operation (PfCO)</strong> granted from the
-          <strong>Civil Aviation Authority (CAA)</strong>, to photograph and shoot video in a professional capacity anywhere in the United Kingdom.
-        </p>
-        <p class="light">
-          Using video downlink, footage can be viewed in real time enabling pilot, cameraman and client absolute control of filming and framing. With gyro-stabilised capabilities our cameras can create smooth footage up to <strong>4K</strong> resolution.
-        </p>
-        <p class="light">
-          <strong>Airpilot UK</strong> provides a professional aerial video and photography service with highly experienced and fully qualified pilots also approved by the <strong>CAA</strong>. Using the latest cinematic technology, we fly UAVs or “Drones”
-          with state of the art camera stabilisation to capture super smooth footage of up to <strong>4k</strong>.
-          <strong>Airpilot UK</strong> pilots are thoroughly trained and fully insured.
-        </p>
-      </div>
-    </div>
-    <div class="row">
       <div class="s12 m6 l4">
         <h4 id="linkToServices">What we do?</h4>
         <p class="left-align light">Technological advances in <strong>UAV (Drone)</strong>, aerial photography and videography have given many more businesses and individuals access to high definition drone aerial photographs and video at affordable prices. The applications are
-          only limited by your imagination! Airpilot UK can supply drone aerial photography and video for:-</hp>
+          only limited by your imagination! Airpilot UK can supply drone aerial photography and video for:-</p>
       </div>
     </div>
     <ul class="fa-ul">
@@ -265,9 +246,11 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4 id="linkToInspection">High Level Inspection</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra
-            ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices
-            erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <p class="left-align light">Using our high tech <strong>4k</strong> drones, <strong>Airpilot UK</strong> is able to safely and cost-effectively carry out previously difficult and dangerous inspections. We are able to remotely inspect a range of hard-to-reach areas and
+            settings, including roofs, tall chimneys, spires and towers, high level cables, wind turbines and all sorts of industrial equipment. Our remotely piloted drones will provide detailed, <strong>high-resolution
+          4k images</strong> and high definition video of places that would be otherwise dangerous to reach.</p>
+          <p class="left-align light">The drone inspections we carry out are <strong>faster and safer</strong> than conventional methods, and allow us to remove the need for expensive scaffolding and cherry pickers. This means we are able to reduce costs and remove the need to work
+            from height, allowing us to comply with various health and safety requirements, while providing you with the ability to assess the components of your property up close.</p>
         </div>
       </div>
 
@@ -284,7 +267,7 @@
     </div>
     <div class="parallax"><img src="static/img/inspect.jpeg" alt="Unsplashed background img 3"></div>
   </div>
-  <div class="container">
+  <!--<div class="container">
     <div class="row">
       <div class="col s12 center">
         <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -305,6 +288,7 @@
     <a class="carousel-item" href="#seven!"><img src="static/img/image7.jpeg"></a>
     <a class="carousel-item" href="#eight!"><img src="static/img/image8.jpeg"></a>
   </div>
+ 
   <div class="container">
     <div class="row">
       <div class="col s12 center">
@@ -312,41 +296,72 @@
         <h4 id="linkToContact">Contact Us</h4>
       </div>
     </div>
-    <div class="container">
-      <form>
-
-      </form>
+  <div class="row">
+    <form class="col s12" action="mailto:info@airpilot.uk" method="post">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+            
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Textarea</label>
+        </div>
+      </div>
+      <a class="blue waves-effect waves-light btn">Send</a>
+    </form>
     </div>
-  </div>
+    
+  </div> -->
 
   <footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">About Us</h5>
-          <p class="grey-text">Based in the heart of Essex, AirPilot provides a full compliment of aerial services.</p>
-          <p class="grey-text">Contact :- </p>
+          <p class="grey-text">Airpilot UK was set up in 2017 by owner Murray Rose and are based in West Essex, UK. Murray was trained and took his extensive UAV (Unmanned Aerial Vehicle), tests with UAV8 Ltd and has aerial Permission for Commercial Operation (PfCO) granted
+            from the Civil Aviation Authority (CAA), to photograph and shoot video in a professional capacity anywhere in the United Kingdom. We fly UAVs or “Drones” with state of the art camera stabilisation to capture super smooth footage of up to 4k.
+            Airpilot UK pilots are thoroughly trained and fully insured.</p>
+          <p class="grey-text">Contact :- Murray Rose on <a href="mailto:info@airpilot.uk">info@airpilot.uk</a></p>
 
 
         </div>
 
-        <div class="col l3 s12">
+        <div class="col l2 s12">
           <h5 class="white-text">Services</h5>
           <ul>
-            <li><a class="grey-text" href="#!">Estate Agents</a></li>
-            <li><a class="grey-text" href="#!">Golf Course</a></li>
-            <li><a class="grey-text" href="#!">High Level Inspection</a></li>
-            <li><a class="grey-text" href="#!">Weddings</a></li>
+            <li><a class="grey-text" href="#linkToProperty">Property Marketing</a></li>
+            <li><a class="grey-text" href="#linkToGolf">Golf Course</a></li>
+            <li><a class="grey-text" href="#linkToInspection">High Level Inspection</a></li>
+            <li><a class="grey-text" href="#linkToContact">Contact</a></li>
+            <li><a class="grey-text" href="#linkToGallery">Gallery</a></li>
           </ul>
         </div>
-        <div class="col l3 s12">
-          <h5 id="linkToGallery" class="white-text">Gallery</h5>
-          <ul>
-            <li><a class="grey-text" href="#!">Estate Agents</a></li>
-            <li><a class="grey-text" href="#!">Golf Course</a></li>
-            <li><a class="grey-text" href="#!">High Level Inspection</a></li>
-            <li><a class="grey-text" href="#!">Weddings</a></li>
-          </ul>
+        <div class="col l4 s12">
+          <h5 id="linkToGallery" class="white-text">Social Links</h5>
+          <div class="icons-style">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube-square"></i></a>
+          </div>
+          <div class="certs">
+            <img src="static/img/LogoSliced.png">
+            <img src="static/img/uav8.jpeg">
+          </div>
         </div>
       </div>
     </div>
@@ -363,6 +378,7 @@
   <script src="static/js/materialize.min.js"></script>
   <script src="static/js/init.js"></script>
   <script src="static/js/custom.js"></script>
+
 
 </body>
 
